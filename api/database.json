@@ -1,0 +1,24 @@
+{
+    "clowns": [],
+    "assignments": [],
+    "reservations": [
+      {
+        "id": 1,
+        "parentName": "Bartholemew Farklebury",
+        "childName" : "Cadence Farklebury",
+        "address": "34445 Bianka Ports",
+        "numberOfAttendees": 3,
+        "reservationDate": "2021-08-27",
+        "reservationLength": 3
+      },
+      {
+        "id": 2,
+        "parentName": "Bob Loblaw",
+        "childName" : "Cletus Loblaw",
+        "address": "34445 Bianka Ports",
+        "numberOfAttendees": 3,
+        "reservationDate": "2021-08-27",
+        "reservationLength": 3
+      }
+    ]
+  }
