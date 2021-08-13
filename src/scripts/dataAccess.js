@@ -36,7 +36,7 @@ export const sendReservation = (userReservation) => {
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify(userServiceRequest)
+        body: JSON.stringify(userReservation)
     }
 
 

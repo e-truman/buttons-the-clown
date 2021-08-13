@@ -27,7 +27,7 @@ export const ServiceForm = () => {
             <input type="number" name="reservationLength" class="input" />
         </div>
 
-        <button class="button" id="submitRequest">Submit Request</button>
+        <button class="button" id="submitReservation">Submit Reservation</button>
     `
 
     return html
@@ -60,3 +60,5 @@ mainContainer.addEventListener("click", clickEvent => {
         sendReservation(dataToSendToAPI)
     }
 })
+
+

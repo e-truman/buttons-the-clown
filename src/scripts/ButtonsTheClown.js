@@ -5,13 +5,13 @@ import { ServiceForm } from "./ServiceForm.js"
 
 export const ButtonsTheClown = () => {
     return `
-        <h1>Maude and Merle's Sink Repair</h1>
+        <h1>Buttons the Clown!</h1>
         <section class="serviceForm">
             ${ServiceForm()}
         </section>
 
         <section class="serviceRequests">
-            <h2>Service Requests</h2>
+            <h2>Reservations</h2>
             ${Reservations()}
         </section>
     `
