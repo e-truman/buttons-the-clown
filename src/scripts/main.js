@@ -14,7 +14,7 @@ const render = () => {
 
 render()
 
-
+// main container has to listen for custom events and re-render html
 mainContainer.addEventListener(
     "stateChanged",
     customEvent => {
