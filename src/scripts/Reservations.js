@@ -19,7 +19,7 @@ export const Reservations = () => {
         <ul>
            ${reservations.map(reservation => {
         return `<li> ${reservation.childName} </li>
-        <li>${reservation.date}<button class="reservation__delete"id="reservation--${reservation.id}">Delete</button></li>`
+        <li>${reservation.reservationDate}<button class="reservation__delete"id="reservation--${reservation.id}">Delete</button></li>`
     }).join("")
         }
         </ul>`

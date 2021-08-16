@@ -1,5 +1,15 @@
 {
   "clowns": [],
   "assignments": [],
-  "reservations": []
+  "reservations": [
+    {
+      "parentName": "Hansel Zimmer",
+      "childName": "Kurt Zimmer",
+      "address": "2105 Porter Road Apt A",
+      "numberOfAttendees": "1",
+      "reservationDate": "2021-08-17",
+      "reservationLength": "12",
+      "id": 1
+    }
+  ]
 }
